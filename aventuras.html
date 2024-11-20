@@ -9,8 +9,9 @@
 <body>
     <header>
         <h1>Aventuras pelo Mundo</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Ícone do menu hambúrguer -->
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="destinos.html">Destinos</a></li>
                 <li><a href="dicas.html">Dicas</a></li>
@@ -19,6 +20,7 @@
             </ul>
         </nav>
     </header>
+    
     <main>
         <div class="imagem-destaque">
             <img src="aventura.jpg" alt="Paisagem incrível de aventura">
@@ -37,5 +39,12 @@
     <footer>
         <p>&copy; 2024 Aventuras pelo Mundo - Todos os direitos reservados.</p>
     </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+    
 </body>
 </html>
