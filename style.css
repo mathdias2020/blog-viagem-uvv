@@ -1,0 +1,90 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background: #008080;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    background: #006666;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Imagem de Destaque */
+.imagem-destaque {
+    margin: 20px 0;
+}
+
+.imagem-destaque img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.texto-destaque {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Botões de Destaques */
+.destaques {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.destaques a {
+    display: block;
+    background: #008080;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.destaques a:hover {
+    background: #006666;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #008080;
+    color: #fff;
+    padding: 1rem 0;
+}
